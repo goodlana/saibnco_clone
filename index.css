@@ -1,0 +1,53 @@
+.logo {
+  display: block;
+  background: url('https://www.saibnco.com/web/new/saib-logo.svg');
+  width: 130px;
+  height: 54px;
+  background-repeat: no-repeat;
+  margin: 0px 50px;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+header li + li {
+  margin-left: 50px;
+}
+
+
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fce8ec;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+/* SECTION1 - 비디오 */
+.section1 {
+  display: block;
+  margin:0;
+  padding:0;
+}
+
+.video-container {
+  padding-top: 56.25%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
