@@ -280,11 +280,15 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
+  align-items: center;
   font-size: 12px;
   line-height: 1.2rem;
   font-weight: 100;
   color: #b55c8d
+}
+
+.footer-texts {
+  width: 1000px;
 }
 
 .footer-name {
