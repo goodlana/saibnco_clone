@@ -1,10 +1,40 @@
-.logo {
-  display: block;
-  background: url('https://www.saibnco.com/web/new/saib-logo.svg');
-  width: 130px;
-  height: 54px;
-  background-repeat: no-repeat;
-  margin: 0px 50px;
+/* @font-face {
+  font-family: ""
+} */
+
+/* COMMON */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  margin-bottom: 90px;
+  margin-top: 92px;
+  padding-left: 2px;
+}
+
+
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fce8ec;
+}
+
+header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
 }
 
 header ul {
@@ -17,32 +47,25 @@ header li {
   font-weight: 500;
 }
 
-header li + li {
+header li+li {
   margin-left: 50px;
 }
 
-
-header {
-  width: 100%;
-  height: 120px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #fce8ec;
+.logo {
+  display: block;
+  background: url('https://www.saibnco.com/web/new/saib-logo.svg');
+  width: 130px;
+  height: 54px;
+  background-repeat: no-repeat;
+  margin: 0px 50px;
 }
 
-.inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1000px;
-}
 
 /* SECTION1 - 비디오 */
 .section1 {
   display: block;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .video-container {
@@ -50,4 +73,160 @@ header {
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+
+/* SECTION2 - 제품소개 */
+
+.section2-wrapper {
+  width: 1000px;
+  height: 800px;
+}
+
+.section2-products-wrapper {
+  height: 400px;
+}
+
+.section2-products-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section2 button {
+  display: block;
+  width: 160px;
+  font-size: 20px;
+  font-weight: 300;
+  height: 40px;
+  border: 1px solid transparent;
+  line-height: 40px;
+  text-align: center;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto 30px;
+  background-color: #e7acbd;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 80px;
+}
+
+
+/* SECTION3 -이미지 슬라이드 */
+.section3-wrapper {
+  width: 1000px;
+  height: 800px;
+}
+
+.bullets {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.bullet {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #dbdbdb;
+}
+
+#pink {
+  background-color: #e7acbd;
+}
+
+
+/* SECTION4 리뷰 */
+.section4-wrapper {
+  margin: 100px 300px; ;
+}
+
+
+/* SECTION5 캠페인  */
+.section5 {
+  background-color: #fce8ec;
+}
+.section5-wrapper {
+    width: 1000px;
+    height: 800px;
+    padding-bottom: 100px;
+}
+
+
+/* SECTION6 수상내역 */
+.section6-wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+.section6-info {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.info-box {
+  padding : 30px 80px;
+  padding-right:100px;
+}
+
+.info-box + .info-box {
+  border-left: 1px solid #e7acbd;
+}
+
+.info-name {
+  display: block;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.info-desc {
+  display: block;
+  margin-top: 10px;
+  color: #e7acbd;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section6-image-wrapper {
+  background-color: #fce8ec;
+  width: 100%;
+  height:300px;
+  text-align: center;
+}
+
+.awards-image {
+  object-fit: contain;
+  height: 100%;
+}
+
+
+.section7-wrapper {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#instagram-info {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 50px;
+  padding-left: 2px;
+  margin-bottom: 100px
+}
+
+
+footer {
+  height: 230px;
+  background-color: #fce8ec;
 }
